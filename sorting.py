@@ -22,5 +22,4 @@ def bubble_sort(arr):
 
 user_input = input("ENTER AN ARRAY: ")
 arr = list(map(int, user_input.split()))
-sorted_arr = insertion_sort(arr)
-print(*sorted_arr)
+print(*insertion_sort(arr))
