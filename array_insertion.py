@@ -11,8 +11,5 @@ arr = list(map(int, user_input.split()))
 ele = int(input("ENTER THE NEW ELEMENT: "))
 pos = int(input("ENTER THE POSITION FOR THE NEW ELEMENT: "))
 
-# Insert element into array
 insert_element(arr, ele, pos)
-
-# Print the new array
 print("Array after insertion:", arr)
