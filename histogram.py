@@ -14,4 +14,4 @@ sentence = input("ENTER THE SENTENCE: ")
 char_count = count_characters(sentence)
 
 for char, count in char_count.items():
-    print(f"'{char}': {count}")
+    print(f"{char}: {count}")
